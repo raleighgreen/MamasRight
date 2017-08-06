@@ -12,6 +12,7 @@
 		455E71001F351BB000A49C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455E70FE1F351BB000A49C79 /* Main.storyboard */; };
 		455E71021F351BB000A49C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455E71011F351BB000A49C79 /* Assets.xcassets */; };
 		455E71051F351BB000A49C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455E71031F351BB000A49C79 /* LaunchScreen.storyboard */; };
+		455E710E1F35205F00A49C79 /* MamasRight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 455E710D1F35205F00A49C79 /* MamasRight.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		455E71011F351BB000A49C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455E71041F351BB000A49C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		455E71061F351BB000A49C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455E710D1F35205F00A49C79 /* MamasRight.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MamasRight.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				455E71011F351BB000A49C79 /* Assets.xcassets */,
 				455E71031F351BB000A49C79 /* LaunchScreen.storyboard */,
 				455E71061F351BB000A49C79 /* Info.plist */,
+				455E710C1F35201500A49C79 /* Sounds */,
 			);
 			path = MamasRight;
+			sourceTree = "<group>";
+		};
+		455E710C1F35201500A49C79 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				455E710D1F35205F00A49C79 /* MamasRight.m4a */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 				455E71051F351BB000A49C79 /* LaunchScreen.storyboard in Resources */,
 				455E71021F351BB000A49C79 /* Assets.xcassets in Resources */,
 				455E71001F351BB000A49C79 /* Main.storyboard in Resources */,
+				455E710E1F35205F00A49C79 /* MamasRight.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

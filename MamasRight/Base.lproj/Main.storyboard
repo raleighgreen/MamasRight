@@ -21,9 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MamasRight@1x" translatesAutoresizingMaskIntoConstraints="NO" id="ByX-Ke-VPu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MamasRight" translatesAutoresizingMaskIntoConstraints="NO" id="Jwo-DJ-ihw">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ae-zA-rwB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -41,7 +40,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Jwo-DJ-ihw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0bz-OB-G57"/>
                             <constraint firstItem="vUt-sh-9Xg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7YM-BK-Yid"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jwo-DJ-ihw" secondAttribute="bottom" id="Cnc-DE-EvD"/>
+                            <constraint firstAttribute="trailing" secondItem="Jwo-DJ-ihw" secondAttribute="trailing" id="EdU-eC-aK7"/>
+                            <constraint firstItem="Jwo-DJ-ihw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VIh-id-yI2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vUt-sh-9Xg" secondAttribute="bottom" constant="35" id="fx9-YB-T0h"/>
                         </constraints>
                     </view>
@@ -52,6 +55,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="MamasRight@1x" width="750" height="1334"/>
+        <image name="MamasRight" width="750" height="1334"/>
     </resources>
 </document>
